@@ -10,4 +10,9 @@ public class Template {
         }
     }
 
+    public static void partOne(String[] input){
+
+    }
+
+
 }
