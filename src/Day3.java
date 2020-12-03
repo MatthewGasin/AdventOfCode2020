@@ -18,7 +18,7 @@ public class Day3 {
         int[] xSlopes = new int[]{1, 3, 5, 7, 1};
         int[] ySlopes = new int[]{1, 1, 1, 1, 2};
 
-        for(int i = 0; i < 5; i++){
+        for(int i = 0; i < trees.length; i++){
             int x = 0;
             int y = 0;
             while (y < forest.length) {
@@ -35,7 +35,6 @@ public class Day3 {
 
         long result = 1;
         for (int i = 0; i < trees.length; i++) {
-            System.out.println(trees[i]);
             result *= trees[i];
         }
         System.out.println(result);
